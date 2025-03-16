@@ -18,7 +18,7 @@ Ensure you have the following installed:
 -Vert.x Framework
 
 2.Clone the Repository
-git clone https://github.com/yourusername/valr-orderbook.git
+git clone https://github.com/DiveshanN/valr-orderbook.git
 cd valr-orderbook
 
 3.Build the Project
