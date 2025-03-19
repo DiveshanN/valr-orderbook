@@ -31,3 +31,12 @@ The server will start on port 8080.
 5.Additional Documentation
 For a detailed guide, including API specifications, system architecture, and unit test results, refer to:
 VALR Order Book Guide (PDF)
+
+HOW TO RUN UNIT TESTS:
+
+During the project I ran into dependency issues running Kotlin files with mvn test, so I manually executed the Test suite class by doing the following:
+
+1. In the IntelliJ IDE, right click the src/test directory and mark the directory as the test source
+2. run an mvn clean install
+3. then go to the MainVerticleTest.kt file
+4. Right click and run MainVerticleTest
