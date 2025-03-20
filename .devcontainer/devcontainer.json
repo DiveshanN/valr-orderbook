@@ -1,0 +1,19 @@
+{
+    "name": "VALR Order Book",
+    "image": "mcr.microsoft.com/devcontainers/java:17",
+    "features": {
+        "ghcr.io/devcontainers/features/maven:1": {},
+        "ghcr.io/devcontainers/features/kotlin:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "fwcd.kotlin",
+                "redhat.vscode-yaml"
+            ]
+        }
+    },
+    "postCreateCommand": "mvn clean install && nohup mvn exec:java > server.log 2>&1 &",
+    "forwardPorts": [8080]
+}
