@@ -40,3 +40,27 @@ During the project I ran into dependency issues running Kotlin files with mvn te
 2. run an mvn clean install
 3. then go to the MainVerticleTest.kt file
 4. Right click and run MainVerticleTest
+
+HOW TO EXECUTE API ENDPOINTS FROM GITHUB CODE SPACES:
+
+1. To access the code space
+https://special-couscous-7j56p9pj66x34pv.github.dev/
+
+2. To View the orderbook
+https://special-couscous-7j56p9pj66x34pv-8080.app.github.dev/api/orderbook
+
+3. To View trade history
+https://special-couscous-7j56p9pj66x34pv-8080.app.github.dev/api/tradehistory
+
+4. To Submit an Order
+https://special-couscous-7j56p9pj66x34pv-8080.app.github.dev/api/order
+
+Run this as a POST request on Postman/Curl/ThunderClient with the following example JSON body
+{
+  "type": "SELL",
+  "quantity": 0.7,
+  "price": 157000,
+  "currencyPair": "BTCZAR"
+}
+
+
