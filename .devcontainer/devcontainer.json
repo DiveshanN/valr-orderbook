@@ -1,6 +1,10 @@
 {
   "name": "VALR Order Book",
-  "image": "mcr.microsoft.com/devcontainers/java:17-maven",
+  "image": "ghcr.io/devcontainers/images/java:17",
+
+  "features": {
+    "ghcr.io/devcontainers/features/maven:1": {}
+  },
 
   "customizations": {
     "vscode": {
@@ -12,4 +16,5 @@
   },
 
   "forwardPorts": [8080],
+  "postCreateCommand": ""
 }
