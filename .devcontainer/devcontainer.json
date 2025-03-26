@@ -1,20 +1,16 @@
 {
   "name": "VALR Order Book",
-  "image": "ghcr.io/devcontainers/images/java:17",
-
-  "features": {
-    "ghcr.io/devcontainers/features/maven:1": {}
-  },
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
   "customizations": {
     "vscode": {
       "extensions": [
-        "vscjava.vscode-java-pack",
-        "fwcd.kotlin"
+        "fwcd.kotlin",
+        "vscjava.vscode-java-pack"
       ]
     }
   },
 
   "forwardPorts": [8080],
-  "postCreateCommand": ""
+  "postCreateCommand": "echo 'Ready to Run...'"
 }
