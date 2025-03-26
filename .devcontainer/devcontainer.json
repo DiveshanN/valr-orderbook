@@ -1,6 +1,6 @@
 {
   "name": "VALR Order Book",
-  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "image": "mcr.microsoft.com/devcontainers/java:17-maven",
 
   "customizations": {
     "vscode": {
@@ -12,6 +12,4 @@
   },
 
   "forwardPorts": [8080],
-
-  "postCreateCommand": "mvn clean install"
 }
