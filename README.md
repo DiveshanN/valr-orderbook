@@ -63,4 +63,11 @@ Run this as a POST request on Postman/Curl/ThunderClient with the following exam
   "currencyPair": "BTCZAR"
 }
 
+NB the server is currently running and active in the code space.
+
+To Restart the server
+
+- cntrl + C
+- then in the codespace terminal run mvn clean install
+- then run mvn exec:java to start the server , then all endpoints will work again 
 
